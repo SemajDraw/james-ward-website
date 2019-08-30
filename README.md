@@ -1,5 +1,7 @@
 # JamesWardWebsite
 
+This project is a basic website that contains information about my skills, education and interests.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
 ## Development server
