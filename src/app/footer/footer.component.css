@@ -1,0 +1,39 @@
+.footer_container {
+    background: #121212;
+    color: white;
+    height: 70vh;
+}
+
+.footer_header {
+    text-align: center;
+    font-family: 'proxima-nova';
+    font-size:calc(10px + 3.5vw);
+    font-weight: 550;
+    line-height: 2em;
+}
+
+.footer_links_row {
+    color: white !important;
+    font-family: 'Lexend Zetta';
+}
+
+.contact_links {
+    color: white !important;
+} 
+
+.contact_links:hover {
+    color: #ffae00 !important;
+    text-decoration: none;
+}
+
+.splitter {
+    background-color: #fffefe;
+    opacity: 0.3;
+    width: 50vw;
+}
+
+.copyright {
+    color: #fafafa;
+    opacity: 0.4;
+    font-size:calc(8px + 0.4vw);
+}
