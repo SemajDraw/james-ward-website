@@ -10,6 +10,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { InformationComponent } from './home/information/information.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ResumeComponent } from './resume/resume.component';
+import { AboutComponent } from './about/about.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +26,14 @@ import { HomeComponent } from './home/home.component';
     InformationComponent,
     FooterComponent,
     HomeComponent,
+    ResumeComponent,
+    AboutComponent,
+    PortfolioComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     NgbModule
   ],
   providers: [],
