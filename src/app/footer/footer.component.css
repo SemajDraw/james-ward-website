@@ -26,6 +26,10 @@
     text-decoration: none;
 }
 
+.active_router_link {
+    color: #ffae00 !important;
+}
+
 .splitter {
     background-color: #fffefe;
     opacity: 0.3;
