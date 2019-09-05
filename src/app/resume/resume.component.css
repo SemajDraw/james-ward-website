@@ -1,0 +1,15 @@
+.header {
+    padding: 0;
+    height: 100vh;
+}
+
+.image_container {
+    height: 100%;
+    background: #000;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
