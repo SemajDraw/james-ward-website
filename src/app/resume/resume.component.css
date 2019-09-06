@@ -1,15 +1,166 @@
-.header {
+.resume_header {
     padding: 0;
     height: 100vh;
+    text-align: center;
 }
 
 .image_container {
     height: 100%;
     background: #000;
+    position: relative;
+}
+
+.image_text {
+    position: absolute;
+    font-family: 'Lexend Zetta';
+    bottom: 20%;
+    left: 5%;
+    color: white;
+}
+
+.image_header {
+
 }
 
 .image {
     height: 100%;
     width: 100%;
     opacity: 0.5;
+}
+
+.image_text {
+
+}
+
+.resume_content {
+    background: #f0f0f0;
+    height: 100%;
+}
+
+.resume_content {
+    height:100%;
+    width: 100%;
+    font-family: 'Gayathri', sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility;
+}
+
+.resume_container {
+    height: 100%;
+    width: 100%;
+}
+
+.resume_grid {
+    padding: 10% 5% 10% 5%;
+    height: 100%;
+}
+
+.details_col {
+    height: 100%;
+    width: 100%;
+}
+
+.title_col {
+    height: 100%;
+    width: 100%;
+    padding: 15px 15px 15px 4%;
+}
+
+.titles {
+    font-weight: 100;
+    font-size: 29px;
+    line-height: 1.5em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #121212;
+}
+
+.headers {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: .12em;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    display: block;
+    color: black;
+}
+
+.technologies_lists {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: .1em;
+    line-height: 2em;
+    text-transform: none;
+    color: #121212;
+}
+
+/* Work Experience */
+.strong_header {
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: 0em;
+    line-height: 2em;
+    text-transform: none;
+    color: #121212;
+}
+
+.work_headers {
+    color: #e1a87a;
+    font-size: 18px;
+}
+
+.work_paragraphs {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: 0em;
+    line-height: 2em;
+    text-transform: none;
+    color: #121212;
+}
+
+/* Education */
+.modules_header {
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: 0em;
+    line-height: 2em;
+    text-transform: none;
+    color: #121212;
+}
+
+.education_lists {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.padding_div_container {
+    width: 100%;
+    padding: 1%;
+}
+
+.padding_div {
+    height: 50px;
 }
