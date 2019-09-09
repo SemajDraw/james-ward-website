@@ -4,6 +4,12 @@
     height: 70vh;
 }
 
+@media screen and (min-width: 500px) {
+    .footer_container {
+        height: 100%;
+    }
+}
+
 .footer_header {
     text-align: center;
     font-family: 'proxima-nova';
