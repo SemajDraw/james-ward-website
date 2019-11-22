@@ -1,18 +1,14 @@
-.info_fluid {
+#info_fluid {
     height: 100vh;
 }
 
 @media only screen and (max-width: 768px) {
-    .info_fluid {
-        height: 100%;
+    .info_header {
+        font-size:calc(1px);
     }
 }
 
-.info_container {
-    height: 100%;
-    width: 100%;
-    margin-top: 10%;
-}
+
 
 .text_div {
     height: 100%;
@@ -31,7 +27,7 @@
 .info_header {
     font-family: 'proxima-nova';
     font-size:calc(14px + 3vw);
-    font-weight: 550;
+    font-weight: 600;
     line-height: 2em;
     padding-bottom: 10px;
 }
