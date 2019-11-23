@@ -4,10 +4,10 @@ import 'bootstrap';
 
 @Component({
   selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  templateUrl: './home-header.component.html',
+  styleUrls: ['./home-header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HomeHeaderComponent implements OnInit {
 
   constructor() {}
 

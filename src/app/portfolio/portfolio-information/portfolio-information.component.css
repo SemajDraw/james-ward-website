@@ -1,0 +1,43 @@
+#info_fluid {
+    height: 70vh;
+}
+
+#wrapper {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .info_header {
+        font-size:calc(1px);
+    }
+}
+
+.text_div {
+    height: 100%;
+    width: 100%;
+    color: #121212;
+}
+
+.info_header {
+    font-family: 'proxima-nova';
+    font-size:calc(14px + 3vw);
+    font-weight: 600;
+    line-height: 2em;
+    padding-bottom: 10px;
+}
+
+.info_paragraph {
+    font-size:calc(10px + 0.9vw);
+    font-weight: 400;
+}
+
+.info_link {
+    color: #ffae00;
+}
+
+#text_table {
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+.portfolio_header {
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.image_container {
+    height: 100%;
+    background: #000;
+    position: relative;
+}
+
+.image_text {
+    position: absolute;
+    font-family: 'Lexend Zetta';
+    bottom: 20%;
+    left: 5%;
+    color: white;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
