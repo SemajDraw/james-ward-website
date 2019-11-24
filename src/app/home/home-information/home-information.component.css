@@ -42,7 +42,7 @@
 }
 
 .buttons {
-    height:calc(0.9vw + 90px);
+    height:calc(0.8vw + 90px);
     width:calc(8vw + 180px);
     font-weight: 400;
     font-size:calc(9px + 0.9vw);
@@ -54,7 +54,7 @@
 }
 
 .buttons:hover {
-    height:calc(0.9vw + 90px);
+    height:calc(0.8vw + 90px);
     width:calc(8vw + 180px);
     font-size:calc(9px + 0.9vw);
     font-family: 'Lexend Zetta';
