@@ -24,6 +24,12 @@
     opacity: 0.5;
 }
 
+.image_header {
+    font-size:calc(10px + 2vw);
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
 .resume_content {
     background: #f0f0f0;
     height: 100%;
@@ -60,7 +66,7 @@
 
 .titles {
     font-weight: 100;
-    font-size: 29px;
+    font-size: 2.5em;
     line-height: 1.5em;
     display: block;
     margin-block-start: 1em;
@@ -75,7 +81,7 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 20px;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: 900;
     letter-spacing: .12em;
@@ -95,7 +101,7 @@
     padding-inline-start: 40px;
     font-weight: 600;
     font-style: normal;
-    font-size: 19px;
+    font-size: 1.5em;
     letter-spacing: .1em;
     line-height: 2em;
     text-transform: none;
@@ -105,7 +111,7 @@
 /* Work Experience */
 .strong_header {
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.5em;
     letter-spacing: 0em;
     line-height: 2em;
     text-transform: none;
@@ -114,7 +120,7 @@
 
 .work_headers {
     color: #e1a87a;
-    font-size: 19px;
+    font-size: 1.5em;
 }
 
 .work_paragraphs {
@@ -125,7 +131,7 @@
     margin-inline-end: 0px;
     font-weight: 500;
     font-style: normal;
-    font-size: 19px;
+    font-size: 1.3em;
     letter-spacing: 0em;
     line-height: 2em;
     text-transform: none;
@@ -135,7 +141,7 @@
 /* Education */
 .modules_header {
     font-style: normal;
-    font-size: 19px;
+    font-size: 2em;
     letter-spacing: 0em;
     line-height: 2em;
     text-transform: none;
@@ -145,7 +151,7 @@
 .education_lists {
     font-weight: 600;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .padding_div_container {

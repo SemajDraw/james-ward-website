@@ -1,0 +1,41 @@
+.form-control:focus {
+    border-color: #ffae00;
+    box-shadow: none;
+}
+
+.form-control {
+    border-color: #9f9f9f;
+    border-radius: 0;
+}
+
+.single_input {
+    height: 50px;
+}
+
+#button_row {
+    margin-top: 25px;
+}
+
+#form_button {
+    height:calc(0.8vw + 60px);
+    width:calc(8vw + 150px);
+    font-weight: 600;
+    font-size:calc(9px + 0.2vw);
+    font-family: 'Lexend Zetta';
+    border: 2px solid #ffae00;
+    border-radius: 0;
+    background: transparent;
+    color: #121212;
+}
+
+#form_button:enabled:hover {
+    height:calc(0.8vw + 60px);
+    width:calc(8vw + 150px);
+    font-weight: 600;
+    font-size:calc(9px + 0.2vw);
+    font-family: 'Lexend Zetta';
+    border: 3px solid #ffffff;
+    border-radius: 0;
+    background: #ffae00;
+    color: white;
+}

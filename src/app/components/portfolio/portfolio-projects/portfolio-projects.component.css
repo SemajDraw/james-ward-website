@@ -1,10 +1,16 @@
 #projects_fluid {
     height: 100vh;
     background: white;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.project_wrapper {
+    padding: 17px
 }
 
 .github_div {
-    margin: 7% auto;
+    margin: 5% auto;
 }
 
 .github_image {
@@ -29,14 +35,24 @@
     height: 30vh;
     width: 15vw;
     text-align: center;
-    border-radius: 10px;
+    padding: 17px;
 }
 
-.repo-col:hover {
+.repo_container {
+    border: #ffae00 solid 2px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.repo_container:hover {
     -webkit-box-shadow: 6px 6px 6px 6px #ccc;
     -moz-box-shadow:    6px 6px 6px 6px #ccc;
     box-shadow:         6px 6px 6px 6px #ccc;
 
+    border: none;
+    background: #121212;
     opacity: 1;
     display: block;
     transition: .3s ease;
@@ -44,9 +60,12 @@
     border-radius: 10px;
 }
 
-.repo_conatiner {
-    height: 100%;
-    width: 100%;
+.repo_container:hover .text_h {
+    color: #f5f5f5;
+}
+
+.repo_container:hover .text_p {
+    color: #ffae00;
 }
 
 .text_h {

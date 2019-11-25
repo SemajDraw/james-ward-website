@@ -1,0 +1,59 @@
+<form id="emailForm" [formGroup]="emailForm" >
+    <label>Full Name</label>
+    <div class="form-row">
+        <div class="col form-group">
+            <div *ngIf="emailForm.controls.firstName.invalid && (emailForm.controls.firstName.dirty || emailForm.controls.firstName.touched)"
+                 class="alert alert-danger">
+                <div *ngIf="emailForm.controls.lastName.errors.required">
+                    First name is required.
+                </div>
+            </div>
+            <input formControlName="firstName" required id="firstName" type="text" class="form-control single_input" placeholder="First name">
+        </div>
+        <div class="col form-group">
+            <div *ngIf="emailForm.controls.lastName.invalid && (emailForm.controls.lastName.dirty || emailForm.controls.lastName.touched)"
+                 class="alert alert-danger">
+                <div *ngIf="emailForm.controls.lastName.errors.required">
+                    Last name is required.
+                </div>
+            </div>
+            <input formControlName="lastName" id="lastName" type="text" class="form-control single_input" placeholder="Last name">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col form-group">
+            <label for="email">Email Address</label>
+            <div *ngIf="emailForm.controls.email.invalid && (emailForm.controls.email.dirty || emailForm.controls.email.touched)"
+                 class="alert alert-danger">
+                <div *ngIf="emailForm.controls.email.errors.email">
+                    Must be a valid email address.
+                </div>
+                <div *ngIf="emailForm.controls.email.errors.required">
+                    Email is required.
+                </div>
+            </div>
+            <input formControlName="email" id="email" type="email" class="form-control single_input" placeholder="name@example.com">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col">
+            <div *ngIf="emailForm.controls.message.invalid && (emailForm.controls.message.dirty || emailForm.controls.message.touched)"
+                 class="alert alert-danger">
+                <div *ngIf="emailForm.controls.message.errors.required">
+                    Message is required.
+                </div>
+            </div>
+            <label for="message">Your Message</label>
+            <textarea formControlName="message" id="message" class="form-control" rows="10"
+            placeholder="Send something awesome to my inbox."></textarea>
+        </div>
+    </div>
+    <div id="button_row" class="row">
+        <div class="col-12 text-center">
+            <div class="button_container">
+                <button id="form_button" type="submit" class="btn btn-primary" [disabled]="!emailForm.valid"
+                (click)="sendEmail()">Send Message</button>
+            </div>
+        </div>
+    </div>
+</form>

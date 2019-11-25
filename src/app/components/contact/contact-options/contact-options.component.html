@@ -1,0 +1,68 @@
+<div id="contact_fluid" class="container-fluid">
+    <div class="row contact_info_rows">
+        <div class="col-4 contact_info_col">
+            <a class="links" href="https://www.linkedin.com/in/james-ward-742377109/">
+                <div class="contact_info_container">
+                    <div class="text_div">
+                        <h1 class="text_h">Connect on Linkedin</h1>
+                        <p class="text_p">Feel free to connect with me or get in touch via Linkedin.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 contact_info_col">
+            <a class="links" data-toggle="modal" data-target="#modalEmailForm">
+                <div class="contact_info_container">
+                    <div class="text_div">
+                        <h1 class="text_h">Contact me directly</h1>
+                        <p class="text_p">Need to ask me some general questions or have some more to say? Send me an email.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 contact_info_col">
+            <a class="links" routerLink="/about" routerLinkActive="active_router_link">
+                <div class="contact_info_container">
+                    <div class="text_div">
+                        <h1 class="text_h">Interested in me?</h1>
+                        <p class="text_p">Why not read my blog, i try to keep it regularly updated with information on projects,
+                            work problems and successes and tech related tidbits.
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 contact_info_col">
+            <div class="contact_info_direct_container">
+                <div class="text_div_direct">
+                    <h1 class="text_h">Or reach out to me directly.</h1>
+                    <p class="text_p">Call +353852209914 Mon-Fri: 9am - 5pm GMT.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalEmailForm" tabindex="-1" role="dialog" aria-labelledby="modalEmailForm" aria-hidden="true">
+        <div id="modal_cont" class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content rounded-0">
+                <div id="modal_body" class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="form_col" class="col">
+                            <app-contact-form></app-contact-form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
