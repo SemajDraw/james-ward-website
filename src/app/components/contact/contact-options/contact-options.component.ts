@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-contact-options',
@@ -7,9 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactOptionsComponent implements OnInit {
 
-  constructor() { }
+  showModal: boolean;
+  showResponse: boolean;
+  response: string;
+
+  constructor() {
+    this.showModal = false;
+    this.showResponse = false;
+  }
 
   ngOnInit() {
+  }
+
+  showModalContainer() {
+    this.showModal = true;
+    this.showResponse = false;
+  }
+
+  closeModal(event) {
+    this.showModal = event.showModal;
+    this.response = event.response;
+    this.showResponse = true;
   }
 
 }

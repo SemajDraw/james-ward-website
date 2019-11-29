@@ -11,7 +11,7 @@
             </a>
         </div>
         <div class="col-4 contact_info_col">
-            <a class="links" data-toggle="modal" data-target="#modalEmailForm">
+            <a class="links" data-toggle="modal" data-target="#modalEmailForm" (click)="showModalContainer()">
                 <div class="contact_info_container">
                     <div class="text_div">
                         <h1 class="text_h">Contact me directly</h1>
@@ -58,7 +58,12 @@
                     </div>
                     <div class="row">
                         <div id="form_col" class="col">
-                            <app-contact-form></app-contact-form>
+                            <div *ngIf="showModal">
+                                <app-contact-form (showModal)="closeModal($event)"></app-contact-form>
+                            </div>
+                            <div *ngIf="showResponse">
+                                {{response}}
+                            </div>
                         </div>
                     </div>
                 </div>

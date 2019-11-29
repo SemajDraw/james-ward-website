@@ -17,9 +17,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { PortfolioInformationComponent } from './components/portfolio/portfolio-information/portfolio-information.component';
 import { PortfolioProjectsComponent } from './components/portfolio/portfolio-projects/portfolio-projects.component';
 import { ContactOptionsComponent } from './components/contact/contact-options/contact-options.component';
-import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
+import { ContactFormComponent } from './components/contact/contact-options/contact-form/contact-form.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import {RouterModule} from '@angular/router';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    HttpClientModule,
     RouterModule,
     NgbModule
   ],
